@@ -1,0 +1,22 @@
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "Dicoding Book Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Ahmad Aji Santoso",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "nanoid": "^3.1.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
